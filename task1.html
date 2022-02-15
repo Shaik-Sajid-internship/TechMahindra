@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Canavas Example</h1>
+    <hr>
+    <canvas></canvas>
+    <script>
+        var can = document.getElementsByTagName("canvas")[0];
+        var ctx = can.getContext("2d");
+            ctx.textAlign = "center";
+            ctx.font = "bold 40px arial";
+            ctx.fillStyle = "#808B96";
+            ctx.fillText("Tech",150,85); 
+            ctx.fillStyle = "red";
+            ctx.fillText("Mahindra",150,120); 
+    </script>
+</body>
+</html>
